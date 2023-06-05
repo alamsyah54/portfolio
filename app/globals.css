@@ -54,6 +54,14 @@
         transform: translateY(0);
     }
 }
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+.animate-slowspin {
+    animation: spin 10000ms linear infinite;
+}
 
 .fade-bottom {
     animation: fadeInBottom 800ms ease-in;
@@ -66,4 +74,16 @@
 }
 .fade-left {
     animation: fadeInLeft 800ms ease-in;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to bottom right, #389cff, #f34aff);
 }

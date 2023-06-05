@@ -171,29 +171,20 @@ const Navbar = () => {
                 </div>
                 <div className='flex flex-col rounded-md font-conthrax '>
                     <div className='flex flex-col py-10 gap-7'>
-                        <Link
-                            href='/asdasd'
-                            className='flex flex-col py-2 group '
-                        >
-                            <span className='px-10 text-xl text-gray-300 cursor-pointer text-start '>
+                        <Link href='/asdasd' className='flex flex-col group '>
+                            <span className='px-5 py-3 text-xl text-gray-300 cursor-pointer text-start '>
                                 About
                             </span>
                             <div className='w-full h-[1px] bg-gradient-to-r my-1 from-gray-200'></div>
                         </Link>
-                        <Link
-                            href='/asdasd'
-                            className='flex flex-col py-2 group '
-                        >
-                            <span className='px-10 text-xl text-gray-300 cursor-pointer text-start '>
+                        <Link href='/asdasd' className='flex flex-col group '>
+                            <span className='px-5 py-3 text-xl text-gray-300 cursor-pointer text-start '>
                                 Projects
                             </span>
                             <div className='w-full h-[1px] bg-gradient-to-r my-1 from-gray-200'></div>
                         </Link>
-                        <Link
-                            href='/asdasd'
-                            className='flex flex-col py-2 group '
-                        >
-                            <span className='px-10 text-xl text-gray-300 cursor-pointer text-start '>
+                        <Link href='/asdasd' className='flex flex-col group '>
+                            <span className='px-5 py-3 text-xl text-gray-300 cursor-pointer text-start '>
                                 Contact
                             </span>
                             <div className='w-full h-[1px] bg-gradient-to-r my-1 from-gray-200'></div>
@@ -215,18 +206,6 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-            {/* <Link href='/asdasd' className='flex flex-col group'>
-                            <span className='px-6 text-xl text-gray-800 cursor-pointer text-start dark:text-gray-300'>
-                                About
-                            </span>
-                            <div className='flex items-center justify-start pb-5 -mt-5 transition-all duration-500 delay-100 group-hover:pb-0 group-hover:mt-0 '>
-                                <span className='flex w-0 h-[2px] transition-all duration-500 delay-100 bg-gray-600 group-hover:w-32 dark:bg-gray-300' />
-                                <div className='flex items-center'>
-                                    <span className='w-3 h-3 bg-gray-600 rounded-full dark:bg-gray-300 group-hover:animate-ping' />
-                                    <span className='absolute w-3 h-3 bg-gray-600 rounded-full dark:bg-gray-300 animate-pulse' />
-                                </div>
-                            </div>
-                        </Link> */}
         </nav>
     )
 }
